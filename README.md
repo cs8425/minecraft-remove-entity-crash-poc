@@ -9,8 +9,8 @@ The crash will only happened on 1.17, not 1.16.5.
 
 ## pre-build
 
-`build/PoC-1.0.0-crash.jar` : crash on 1.17, not 1.16.5
-`build/PoC-1.0.0-not-crash.jar`: not crash neither on 1.17, nor 1.16.5
+* `build/PoC-1.0.0-crash.jar` : crash on 1.17, not 1.16.5
+* `build/PoC-1.0.0-not-crash.jar`: not crash neither on 1.17, nor 1.16.5
 
 ## trigger
 
