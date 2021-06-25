@@ -1,9 +1,16 @@
 # A PoC plugin
-PoC for remove `Entity` in `EntityRemoveFromWorldEvent` will cause `java.util.ConcurrentModificationException`
+PoC for remove `Entity` in `EntityRemoveFromWorldEvent` will cause `java.util.ConcurrentModificationException`.
+The crash will only happened on 1.17, not 1.16.5.
+
 
 ## build
 
 `mvn -X package`
+
+## pre-build
+
+`build/PoC-1.0.0-crash.jar` : crash on 1.17, not 1.16.5
+`build/PoC-1.0.0-not-crash.jar`: not crash neither on 1.17, nor 1.16.5
 
 ## trigger
 
